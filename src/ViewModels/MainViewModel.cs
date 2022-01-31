@@ -47,6 +47,8 @@ namespace file_drop_sample.ViewModels
             }
         }
 
+        #region DragFiles
+
         public void StartDrag(IDragInfo dragInfo)
         {
             // drag&drop inside the ListBox with control key
@@ -73,6 +75,8 @@ namespace file_drop_sample.ViewModels
             return true;
         }
 
+        #endregion
+
         public void Dropped(IDropInfo dropInfo)
         {
         }
@@ -89,6 +93,8 @@ namespace file_drop_sample.ViewModels
         {
             return GongSolutions.Wpf.DragDrop.DragDrop.DefaultDragHandler.TryCatchOccurredException(exception);
         }
+
+        #region DropFiles
 
         public void DragOver(IDropInfo dropInfo)
         {
@@ -128,5 +134,7 @@ namespace file_drop_sample.ViewModels
                 GongSolutions.Wpf.DragDrop.DragDrop.DefaultDropHandler.Drop(dropInfo);
             }
         }
+
+        #endregion
     }
 }
