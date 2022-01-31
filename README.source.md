@@ -37,4 +37,4 @@ snippet: DragFiles
 
 ## Credits
 
-README generated with [MarkdownSnippets](https://github.com/SimonCropp/MarkdownSnippets) by @SimonCropp
+README generated with [MarkdownSnippets](https://github.com/SimonCropp/MarkdownSnippets) by [@SimonCropp](https://github.com/SimonCropp)
